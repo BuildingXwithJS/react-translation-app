@@ -1,0 +1,21 @@
+{
+  "name": "react-translation-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-css": "^0.2.0",
+    "bulma": "^0.7.1",
+    "next": "^6.1.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
+}
