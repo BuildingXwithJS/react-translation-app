@@ -3,15 +3,15 @@
     "origin": [
       [
         "pages/index.js",
-        13
+        29
       ]
     ]
   },
-  "The random number is {0}": {
+  "{messagesCount, plural, one {There's # message in your inbox} other {There're # messages in your inbox}}": {
     "origin": [
       [
         "pages/index.js",
-        17
+        32
       ]
     ]
   }

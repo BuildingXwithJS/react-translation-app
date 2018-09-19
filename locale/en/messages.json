@@ -1,6 +1,20 @@
 {
   "Hello {name}": {
     "translation": "Hello {name}",
-    "origin": [["pages/index.js", 13]]
+    "origin": [
+      [
+        "pages/index.js",
+        29
+      ]
+    ]
+  },
+  "{messagesCount, plural, one {There's # message in your inbox} other {There're # messages in your inbox}}": {
+    "translation": "{messagesCount, plural, one {There's # message in your inbox} other {There're # messages in your inbox}}",
+    "origin": [
+      [
+        "pages/index.js",
+        32
+      ]
+    ]
   }
 }

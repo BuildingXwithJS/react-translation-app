@@ -1,19 +1,17 @@
-import {Plural, Trans} from '@lingui/macro';
+import {DateFormat, Plural, Trans} from '@lingui/macro';
 import {I18nProvider} from '@lingui/react';
 import catalogs from '../locale/catalogues';
 
 const name = 'BxJS';
-const messagesCount = 2;
+const messagesCount = 3;
 
 export default class Index extends React.Component {
   static async getInitialProps({req}) {
     const userLanguagesString = req ? req.headers['accept-language'] : navigator.acceptLanguage;
-    const userLanguages =
-      ['de'] ||
-      userLanguagesString
-        .split(';')
-        .map(lang => lang.split(',').pop())
-        .filter(lang => !lang.includes('='));
+    const userLanguages = userLanguagesString
+      .split(';')
+      .map(lang => lang.split(',').pop())
+      .filter(lang => !lang.includes('='));
     return {userLanguages};
   }
 
@@ -35,6 +33,9 @@ export default class Index extends React.Component {
                   other="There're # messages in your inbox"
                 />
               </h2>
+              <p>
+                <DateFormat value={Date.now()} />
+              </p>
               <p>Lang: {currentLanguage}</p>
             </div>
           </div>
