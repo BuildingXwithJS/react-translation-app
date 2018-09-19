@@ -1,0 +1,18 @@
+{
+  "Hello {name}": {
+    "origin": [
+      [
+        "pages/index.js",
+        13
+      ]
+    ]
+  },
+  "The random number is {0}": {
+    "origin": [
+      [
+        "pages/index.js",
+        17
+      ]
+    ]
+  }
+}

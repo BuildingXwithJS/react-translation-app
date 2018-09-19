@@ -1,0 +1,6 @@
+{
+  "Hello {name}": {
+    "translation": "Hallo {name}",
+    "origin": [["pages/index.js", 13]]
+  }
+}
